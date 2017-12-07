@@ -1,0 +1,38 @@
+table, td, tr, th {
+    border: solid 1px darkgrey;
+}
+.artist, .song, .image, .explicit {
+    background-color: palegoldenrod;
+    color: black;
+    text-align: center;
+}
+table {
+    background-color: slategrey;
+}
+.input {
+    width: 225px;
+    background-color: lightcyan;
+    border-radius: 5px;
+    box-shadow: silver 1px 0 2px;
+}
+.input:focus {
+    outline: none;
+}
+.song {
+    width: 200px;
+}
+.artist {
+    width: 100px;
+}
+.image {
+    width: 100px;
+}
+.explicit {
+    width: 150px;
+}
+.image {
+    width: 110px;
+}
+body {
+    background-color: lightgray;
+}

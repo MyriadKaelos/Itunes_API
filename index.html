@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <input id="search" type="text" placeholder="search.." class="input"/>
+    <input id="add" type="text" placeholder="add an artist.." class="input"/>
+    <datalist id="iTunesArtists">
+    </datalist>
+    <select id="select" title="selector" class="input">
+            <option value="20">Show 20 closest results</option>
+            <option value="10">Show 10 closest results</option>
+            <option value="5">Show 5 closest results</option>
+        </select>
+    <table id="table">
+            <tr>
+                <th class="song">Song</th>
+                <th class="artist">Artist</th>
+                <th class="image">Album Cover</th>
+                <th class="explicit">Rating</th>
+            </tr>
+        </table>
+</body>
+</html>
+
+<!-- - Drop text input box (or a drop down select) for artist names.-->
+<!-- - On submit, the program displays a table of album rows containing basic fields including the album art-->
+<!-- - Allow the user to determine how many results to show via a drop down-->
+<!-- - Use styles to make your page attractive-->
+<!-- - Searches returning 0 results are handled gracefully-->
+<!-- - Page doesn’t require a refresh to display new input  -->
